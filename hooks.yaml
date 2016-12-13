@@ -1,0 +1,6 @@
+-   id: verboten-words
+    name: verboten words
+    description: This hook reorders imports in python files.
+    entry: verboten-words
+    language: python
+    files: \.(asciidoc|adoc|coffee|cpp|css|c|ejs|erb|groovy|h|haml|hh|hpp|hxx|html|in|j2|jade|json|js|less|markdown|md|ml|mli|pp|py|rb|rs|R|scala|scss|sh|slim|tex|tmpl|ts|txt|yaml|yml)$
