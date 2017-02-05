@@ -1,5 +1,4 @@
-""" pre-commit check; determines if forbidden words are about 
-be checked into the repo. """
+""" pre-commit check; determines if forbidden words are about to be checked into the repo. """
 
 from __future__ import print_function
 from __future__ import unicode_literals
