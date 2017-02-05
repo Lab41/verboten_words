@@ -1,9 +1,13 @@
+""" pre-commit check; determines if forbidden words are about 
+be checked into the repo. """
+
 from __future__ import print_function
 from __future__ import unicode_literals
 
 import argparse
 import os
 import sys
+
 
 
 def find_bad(bad_words, file_obj):
@@ -32,9 +36,9 @@ def verboten_words(argv=None):
 
     ENVIRONEMNT_VARIABLES:
 
-    VERBOTEN_FILE: pointer to file of bad_words
-    F_IT: Existance of F_IT negates all checking for bad words
-    
+        VERBOTEN_FILE: pointer to file of bad_words
+        F_IT: Existance of F_IT negates all checking for bad words
+
     returnValue of 0 -> all good/ignored, 1 -> problems
     """
     parser = argparse.ArgumentParser()
